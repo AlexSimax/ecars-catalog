@@ -1,0 +1,16 @@
+.search {
+  padding: 10px;
+  padding-left: 35px;
+  width: 180px;
+  border: none;
+  outline: none;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+input {
+  background-image: url("../../assets/search.svg");
+  background-position: 0px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  /* background-color: grey; */
+}
