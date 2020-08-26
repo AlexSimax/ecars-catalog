@@ -11,7 +11,7 @@ export const Card = props => {
         height="235"
       />
       <h2>{props.car.name[0]}</h2>
-      <p>Запас хода, WLTP: {props.car.wltp} km</p>
+      <p>Запас хода: {props.car.wltp} km</p>
     </div>
   )
 }
