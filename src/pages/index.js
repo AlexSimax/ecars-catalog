@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 import "../css/main.css"
 import { CardList } from "../components/card-list/card-list.component"
 import { SearchBox } from "../components/search-box/search-box.component"
