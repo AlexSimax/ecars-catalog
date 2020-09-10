@@ -1,0 +1,31 @@
+.header {
+  padding: 10px 0;
+  text-align: center;
+  background: #222;
+}
+
+.header img {
+  width: 100px;
+  height: 13px;
+  margin-right: 15rem;
+}
+.header button {
+  font-family: "Open Sans";
+  padding: 0.3rem 1.3rem;
+  background: transparent;
+}
+.btnNameToTitle {
+  margin-left: 10rem;
+  /* border: 2px solid grey; */
+  padding: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+}
+.btnNameToTitle a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+.btnNameToTitle a:hover {
+  color: rgb(17, 196, 202);
+}

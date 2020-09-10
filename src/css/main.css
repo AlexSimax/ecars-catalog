@@ -10,6 +10,38 @@ Fonts
 Variables
 ===============
 */
+@font-face {
+  font-family: "RobotoNormal";
+  src: url("../assets/fonts/Roboto-Regular-webfont.eot");
+  src: url("../assets/fonts/Roboto-Regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Roboto-Regular-webfont.woff") format("woff"),
+    url("../assets/fonts/Roboto-Regular-webfont.ttf") format("truetype"),
+    url("../assets/fonts/Roboto-Regular-webfont.svg#RobotoRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: 300 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
 :root {
   /* dark shades of primary color*/
@@ -56,6 +88,10 @@ Global Styles
 
 .App {
   text-align: center;
+  font-family: "Open Sans";
+}
+.wrapper {
+  margin: 100px 0 150px;
 }
 h1 {
   color: rgb(17, 196, 202);
@@ -125,4 +161,21 @@ code {
 }
 h2 {
   color: rgb(17, 196, 202);
+}
+
+.nameTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nameTitle h1 {
+  margin-left: 10rem;
+}
+.btnNameTitle {
+  margin-left: 1rem;
+  text-decoration: none;
+  padding: 1rem 0;
+  border: 2px solid rgb(17, 196, 202);
+  padding: 1rem;
+  color: grey;
 }

@@ -1,8 +1,9 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 import "../css/main.css"
 import { CardList } from "../components/card-list/card-list.component"
 import { SearchBox } from "../components/search-box/search-box.component"
+import { Link } from "gatsby"
 
 export default class App extends Component {
   constructor() {
@@ -104,7 +105,13 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <h1>Каталог Электромобилей</h1>
+        <div className="nameTitle">
+          <h1>Каталог Электромобилей</h1>
+
+          <Link to="/range" className="btnNameTitle">
+            Расчёт пробега
+          </Link>
+        </div>
         <SearchBox
           placeholder="марка или модель"
           changeHandler={this.handleChange}
