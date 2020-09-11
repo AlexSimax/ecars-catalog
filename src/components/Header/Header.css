@@ -14,18 +14,29 @@
   padding: 0.3rem 1.3rem;
   background: transparent;
 }
-.btnNameToTitle {
+.btnNameToHome {
   margin-left: 10rem;
   /* border: 2px solid grey; */
   padding: 0.5rem;
   color: grey;
   font-size: 1rem;
 }
-.btnNameToTitle a {
+.btnNameToHome a {
   text-transform: uppercase;
   color: white;
   text-decoration: none;
 }
-.btnNameToTitle a:hover {
+.btnNameToHome a:hover {
   color: rgb(17, 196, 202);
+}
+
+@media screen and (max-width: 676px) {
+  .header {
+    min-width: 425px;
+  }
+  .header img {
+    width: 60px;
+    height: 10px;
+    margin-right: 1rem;
+  }
 }

@@ -36,12 +36,12 @@
   box-shadow: inset 0px 0px 0px 1px #39f;
 }
 .tesla-wheels__item p {
-  font-family: 'RobotoNormal';
+  font-family: "RobotoNormal";
   font-size: 16px;
   font-weight: 400;
   color: #333;
 }
-.tesla-wheels__item input[type=radio] {
+.tesla-wheels__item input[type="radio"] {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -50,4 +50,9 @@
   padding: 0;
   position: absolute;
   width: 1px;
+}
+@media screen and (max-width: 676px) {
+  .tesla-wheels__component {
+    margin-top: 16px;
+  }
 }

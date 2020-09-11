@@ -14,3 +14,8 @@ input {
   padding-left: 40px;
   /* background-color: grey; */
 }
+@media screen and (max-width: 676px) {
+  .searchBox {
+    margin-left: -6rem;
+  }
+}

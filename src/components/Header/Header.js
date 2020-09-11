@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Header = () => (
   <div className="header">
     <img src={logoUrl} alt="Tesla" />
-    <button className="btnNameToTitle">
+    <button className="btnNameToHome">
       <Link>Каталог</Link>
     </button>
   </div>

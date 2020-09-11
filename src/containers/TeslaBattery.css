@@ -23,3 +23,20 @@
   display: block;
   width: 100%;
 }
+
+@media screen and (max-width: 676px) {
+  .tesla-battery {
+    width: 350px;
+    /* margin: 0 auto; */
+  }
+  .tesla-battery h1 {
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .tesla-climate-container {
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    margin: 20px 40px 0 0;
+  }
+}

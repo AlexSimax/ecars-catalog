@@ -106,17 +106,33 @@ export default class App extends Component {
     return (
       <div className="App">
         <div className="nameTitle">
-          <h1>Каталог Электромобилей</h1>
+          <div className="nameTitle__h1">
+            <h1>Каталог Электромобилей</h1>
+          </div>
 
           <Link to="/range" className="btnNameTitle">
             Расчёт пробега
           </Link>
         </div>
-        <SearchBox
-          placeholder="марка или модель"
-          changeHandler={this.handleChange}
-        ></SearchBox>
+        <div className="searchBox">
+          <SearchBox
+            placeholder="марка или модель"
+            changeHandler={this.handleChange}
+          ></SearchBox>
+        </div>
         <CardList cars={filteredCars} />
+        <div className="footerMain">
+          <div className="year">{new Date().getFullYear()} </div>
+          <p className="mail">
+            Разработано&nbsp;
+            <a
+              href="mailto:eurock3@gmail.com?Subject=%20ecars.netlify.app/"
+              target="_top"
+            >
+              <i>AlexSimax</i>
+            </a>
+          </p>
+        </div>
       </div>
     )
   }
